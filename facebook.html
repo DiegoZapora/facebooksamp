@@ -12,14 +12,14 @@
     </header>
     <main>
         <h2>Entrar no Facebook</h2>
-        <form action="post">
+        <form action="cadastro.php" method="post">
             <div>
-                <input type="email" name="email" id="iemail" placeholder="Email ou Telefone"> <br>
-                <input type="password" name="senha" id="isenha" placeholder="Senha"> <br>
-                <input type="submit" value="Entrar" id="botao">
+                <input type="email" name="email" id="iemail" placeholder="   Email ou telefone" required> <br>
+                <input type="password" name="senha" id="isenha" placeholder="   Senha" minlength="12" maxlength="30"> <br>
+                <input type="submit" value="Entrar" id="botao" required min="8" max="20">
                 <p class="esqueceu"><a href="#">Esqueceu a conta?</a></p>
-                <p>------------------- ou --------------------</p>
-                <input type="button" value="Criar nova conta" >
+                <p class="samp">-------------------------------- ou ---------------------------------</p>
+                <input type="button" value="Criar nova conta" id="nova">
             </div>
         </form>
     </main>

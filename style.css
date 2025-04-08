@@ -22,44 +22,53 @@ main {
     display: block;
     margin: auto;
     text-align: center;
-    border-radius: 15px;
-    box-shadow: 1px 2px 15px black;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.178);
     width: 396px;
-    height: 315px;
+    height: 400px;
 }
 
 h2 {
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding: 20px;
-    font-weight: normal;
+    font-weight: lighter;
 }
 
 input#iemail {
     width: 364px;
     height: 52px;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 0.1px solid rgba(0, 0, 0, 0.089);
     margin-bottom: 10px;
+    font-size: 1.0em;
+    font-weight: lighter;
 }
 
 input#isenha {
-    border-radius: 10px;
+    border-radius: 5px;
     width: 364px;
     height: 52px;
+    font-size: 1.0em;
+    border: 0.1px solid rgba(0, 0, 0, 0.089);
+    font-weight: lighter;
 }
 
 input#botao {
     margin-top: 10px;
     width: 364px;
     height: 48px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #166FE5;
     color: white;
     font-size: 1.3em;
     font-weight: bold;
+    border-style: none;
 }
 
 input#botao:hover {
     background-color: #216ccf;
+
 }
 
 p.esqueceu {
@@ -76,3 +85,38 @@ p.esqueceu > a:hover {
     text-decoration: underline;
 }
 
+p.samp {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.253);
+}
+
+input#nova {
+    background-color: #3DAE25;
+    width: 166px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: white;
+    margin-top: 20px;
+    border-style: none;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+input#nova:hover {
+    background-color: #379622;
+}
+
+footer {
+    display: block;
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 400px;
+}
+
+footer > p {
+    height: 400px;
+    width: 400px;
+}

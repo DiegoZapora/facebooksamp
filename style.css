@@ -43,6 +43,7 @@ input#iemail {
     margin-bottom: 10px;
     font-size: 1.0em;
     font-weight: lighter;
+    padding-left: 10px;
 }
 
 input#isenha {
@@ -52,6 +53,7 @@ input#isenha {
     font-size: 1.0em;
     border: 0.1px solid rgba(0, 0, 0, 0.089);
     font-weight: lighter;
+    padding-left: 10px;
 }
 
 input#botao {
